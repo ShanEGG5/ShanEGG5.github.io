@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Shane's Art Portfolio</title>
+        <link rel="icon" type="images/x-icon" href="logo.png">
+        <link rel="stylesheet" href="about.css">
+        <script src="home.js">
+</script>
+</head>
+
+<body>
+
+ <header>
+    <div class="logo">Shane's Art Portfolio</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About Artist</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+<br>
+<br>
+
+<div class="artist"><img src="Me.jpg" width="290" height="300"></div>
+</div>
+
+<aside>
+  <p>Hey there! My name is Shane. I am a 19 year old amateur artist who
+     enjoys designing characters and writing stories.
+  </p>
+  <p>A goal of mine is to be a proud owner of an animated series. 
+      Though I only have a little experience with art and animation, 
+      I'm willing to learn!
+  </p>
+</aside>
+
+<section class="skills-tools">
+  <div class="skills">
+  
+
+    <h2>Skills</h2>
+    <ul>
+      <li>Illustration</li>
+      <li>Digital Animation</li>
+      <li>Character Design</li>
+    </ul>
+  </div>
+
+  <div class="tools">
+    
+
+    <h2>Tools</h2>
+  <div class="ibispaint">
+      <img src="ibispaint.jpg" alt="Ibis Paint">
+  </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="footer-content">
+    <img src="footer.png" width="430" height="280" alt="footer image">
+    <p><span id="year"></span> Shane Galang</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

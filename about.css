@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Playpen+Sans:wght@500&display=swap');
+
+body{
+  font-family: 'Playpen Sans', cursive;
+  background-color: #FFFEFC;
+  text-align: center;
+  padding: 50px;
+}
+
+header{
+display: inline-block;
+}
+
+.logo{
+  font-family: 'Dongle', sans-serif;
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 3.5rem;
+  border: 6px solid #1a1a1a;
+  border-radius: 50px;
+  font-weight: 700;
+  color: #1a1a1a;
+  background-color: white;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+nav a{
+  margin: 0 30px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #111;
+  border-bottom: 2px solid transparent;
+  transition: border 0.3s;
+}
+
+nav a:hover,nav a.active{
+  border-bottom: 2px solid #111;
+  font-style: bold;
+}
+
+aside{
+  text-align: justify;
+  color: #ffffff;
+  background-color:#171717;
+  padding: 9% 30px;
+}
+
+.artist{
+  float: left;
+  background-color: #171717;
+  padding-left: 50px;
+  padding-top: 35px;
+
+}
+
+.skills-tools{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.skills-section, .tools-section{
+  flex: 1 1 300px;
+  margin: 20px;
+}
+
+
+.skills-section ul {
+  list-style: disc;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.ibispaint{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.ibispaint img {
+  height: 40px;
+}

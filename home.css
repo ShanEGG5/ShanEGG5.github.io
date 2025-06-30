@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Playpen+Sans:wght@500&display=swap');
+
+body{
+  font-family: 'Playpen Sans', cursive;
+  background-color: #FFFEFC;
+  text-align: center;
+  padding: 50px;
+}
+
+header{
+display: inline-block;
+}
+
+.logo{
+  font-family: 'Dongle', sans-serif;
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 3.5rem;
+  border: 6px solid #1a1a1a;
+  border-radius: 50px;
+  font-weight: 700;
+  color: #1a1a1a;
+  background-color: white;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+nav a{
+  margin: 0 30px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #111;
+  border-bottom: 2px solid transparent;
+  transition: border 0.3s;
+}
+
+nav a:hover,nav a.active{
+  border-bottom: 2px solid #111;
+  font-style: bold;
+}
+
+.button-main{
+  background-color: #171717;
+  padding: 1% 30px;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+  background-color: transparent;
+  opacity: 0.7;
+}
+
+.gallery-item{
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.gallery-item span{
+  font-family: 'Playpen Sans', cursive;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+footer{
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content img{
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-content p{
+  margin-top: 10px;
+  font-size: 1rem;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Shane's Art Portfolio</title>
+        <link rel="icon" type="images/x-icon" href="logo.png">
+        <link rel="stylesheet" href="home.css">
+        <script src="home.js">
+</script>
+
+</head>
+
+<body>
+
+ <header>
+    <div class="logo">Shane's Art Portfolio</div>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About Artist</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+<br>
+<br>
+
+<section class="button-main">
+  <main class="gallery">
+    <a href="char_des.html" class="gallery-item" style="background-image: url('Character_Designs/CharacterDesign.png');">
+      <span>Character Designs</span>
+    </a>
+    <a href="#" class="gallery-item" style="background-image: url('Logos/Logos2.png');">
+      <span>Logos</span>
+    </a>
+    <a href="#" class="gallery-item" style="background-image: url('Animation/Animation.png');">
+      <span>Animations</span>
+    </a>
+    <a href="#" class="gallery-item" style="background-image: url('Other_Artworks/OtherArtworks.png');">
+      <span>Other Artworks</span>
+    </a>
+  </main>
+</section>
+
+<footer>
+  <div class="footer-content">
+    <img src="footer.png" width="430" height="280" alt="footer image">
+    <p><span id="year"></span> Shane Galang</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
